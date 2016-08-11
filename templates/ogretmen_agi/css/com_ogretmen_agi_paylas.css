@@ -1,0 +1,32 @@
+.com_ogretmen_agi_paylas .kutu{
+    position: relative;
+}
+
+.com_ogretmen_agi_paylas .ozel_kutu{
+    padding: 40px;
+}
+.com_ogretmen_agi_paylas .ozel_kutu .form-control{
+    border: none!important;
+    box-shadow: none!important;
+}
+.com_ogretmen_agi_paylas .ozel_kutu .td{
+    padding: 0!important;
+    padding:10px 0 10px  0 !important;
+}
+.com_ogretmen_agi_paylas .aciklama {
+    height: 100px!important;
+    font-size: 12px;
+}
+
+.com_ogretmen_agi_paylas .sozlesme {
+    height: 50px!important;
+    font-size: 10px;
+}
+
+
+.com_ogretmen_agi_paylas .upload_progres{
+    width           : 31px;
+    height          : 31px;
+    background-image: url("../images/uploading.gif");
+}
+

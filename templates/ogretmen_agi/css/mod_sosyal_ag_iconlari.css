@@ -1,0 +1,21 @@
+.mod_sosyal_ag_iconlari{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+    text-indent: 0;
+}
+
+.sosyal-ag-facebook {
+    display: block!important;
+    position: absolute!important;
+    bottom: 5px;
+    left: 10px;
+
+}
+.sosyal-ag-facebook a{
+    color: #ffffff!important;
+}

@@ -1,0 +1,83 @@
+.portal .orta-sutun  .mdl-carousel{
+    width: 100%;
+    height: 264px;
+    background-image: url("../images/carosel_bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu{
+    width: 100%;
+    height: 72px;
+    background-color: rgba(0,0,0,.4);
+    border-bottom: 1px solid #707070;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu{
+    position: relative;
+    width: 308px;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+    text-shadow: 2px 1px 1px #000000;
+    float: left;
+    cursor: pointer;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu span{
+    width       : 200px;
+    float       : left;
+    text-align  : right;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu .text{
+    font-size: 18px;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu .smal-text{
+    margin-top: -2px;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 1.3px;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu .icon{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 60px;
+    right: 5px;
+    border-left: 1px dotted #ffffff;
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu .icon_sb{
+    background-image: url("../images/sb_logo.png");
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu .icon_snv{
+    background-image: url("../images/sb_snv_logo.png");
+}
+
+.portal .orta-sutun  .mdl-carousel .iconlu-menu .menu .icon_by{
+    background-image: url("../images/sb_by_logo.png");
+}
+
+
+
+.portal .orta-sutun  .mdl-carousel  .slider ul {
+    list-style  : none;
+    color       : #ffffff;
+    font-size   : 30px;
+    text-align  : center;
+}
+
+.portal .orta-sutun  .mdl-carousel  .slider ul li{
+    font-family: Verdana;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 10px;
+}
+

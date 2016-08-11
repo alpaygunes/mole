@@ -1,0 +1,45 @@
+.mod_ogretmen_agi_hesap_yonetimi{
+    margin-top: 10px;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+
+.mod_ogretmen_agi_hesap_yonetimi ul{
+    list-style: none!important;
+    margin-top: 10px;
+    font-family:verdana, arial, helvetica, sans-serif;
+}
+
+.mod_ogretmen_agi_hesap_yonetimi ul li{
+    text-indent: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    height: 20px;
+    width: 100%;
+    margin-top: 3px;
+}
+
+
+
+.mod_ogretmen_agi_hesap_yonetimi ul .anasayfa{
+    background-image: url("../images/anasayfa.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+
+.mod_ogretmen_agi_hesap_yonetimi ul .arkadaslariniz{
+    background-image: url("../images/arkadaslariniz.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+
+.mod_ogretmen_agi_hesap_yonetimi ul .ayar_icon{
+    background-image: url("../images/edit.png");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    font-size: 12px;
+}

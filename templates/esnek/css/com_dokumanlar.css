@@ -1,0 +1,330 @@
+.com_dokumanlar{
+
+}
+
+.com_dokumanlar .kutu{
+    padding: 0px!important;
+    position: relative!important;
+}
+
+.com_dokumanlar .baslik-filitre{
+    position: relative;
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+    background-color: #fafbff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    background-image: url("../images/suz.png");
+    background-repeat: no-repeat;
+    background-position: 98%;
+    color: rgb(116, 161, 199);
+}
+.com_dokumanlar .baslik-filitre:hover
+{
+    text-decoration-line: underline;
+ }
+
+.com_dokumanlar .filitre
+{
+    width: 100%;
+    height: 190px;
+}
+
+.com_dokumanlar .icerik
+{
+
+}
+
+.com_dokumanlar .filitre table td,th
+{
+    background-color: #ffffff!important;
+}
+
+.com_dokumanlar .filitre table th
+{
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.com_dokumanlar .filitre table
+{
+    margin-bottom: 10px!important;
+}
+
+
+.com_dokumanlar .filitre .btn-filter
+{
+    float: right;
+    padding: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+
+.com_dokumanlar .dokuman_linkleri
+{
+    position: relative;
+    float: left;
+    width: 99%;
+    border: 1px solid #E9EAED;
+    background-color: #fafbff;
+    padding-top: 4px!important;
+    margin-top: 10px;
+    margin: 3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+
+.com_dokumanlar .dokuman_linkleri:hover
+{
+    background-color: #ffffff;
+    border: 1px solid #dbdcdf;
+    box-shadow: 0px 0px 1px #eeeeee;
+}
+
+
+.com_dokumanlar .dokuman_linkleri .oge_adi
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-indent: 20px;
+    background-image: url("../images/mn-icon.png");
+    background-repeat: no-repeat;
+    background-position:10px 7px;
+    text-transform:capitalize;
+    color: rgb(116, 161, 199);
+}
+
+.com_dokumanlar .dokuman_linkleri .oge_aciklamasi
+{
+    font-size: 11px;
+    text-indent: 20px;
+}
+
+
+
+.com_dokumanlar .dokuman_linkleri .tarih
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.com_dokumanlar .dokuman_linkleri .hit
+{
+    position: absolute;
+    top: 0;
+    right: 130px;
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.com_dokumanlar .sayfalama{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    padding: 2px;
+}
+
+.com_dokumanlar .ilerigeribtn{
+    float: right;
+    display: block;
+    width: 85px;
+    margin-right: 4px;
+    border-radius: 0px;
+
+}
+
+
+.com_dokumanlar .sayfalama table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+
+.com_dokumanlar .sayfalama table tr td{
+    width: 150px;
+}
+
+
+.com_dokumanlar .icerik .yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    top         : 200px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}
+
+
+.com_dokumanlar .icerik .kayit_yok{
+    position    : absolute;
+    width       : 200px;
+    height      : 20px;
+    top         : 200px;
+    left        : 40%;
+    color       : #CCCCCC;
+}
+
+
+
+
+.com_dokumanlar .icerik .transformable {
+    -webkit-transition: height 200ms linear;
+    -moz-transition: height 200ms linear;
+    -o-transition: height 200ms linear;
+    -ms-transition: height 200ms linear;
+    transition: height 200ms linear;
+
+}
+
+.com_dokumanlar .icerik .small {
+    height: 30px;
+}
+
+.com_dokumanlar .icerik .big {
+    height:120px;
+}
+
+.com_dokumanlar .dokuman_linkleri .indirme_linki {
+    margin-top: 9px;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.com_dokumanlar .dokuman_linkleri .indirme_linki .indir{
+    background-image: url("../images/dokuman_detay.png");
+    background-repeat:no-repeat;
+    background-size: 20px 16px;
+    background-position: 5px;
+    padding-left: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+
+
+.com_dokumanlar .kutu .dokum_bilgileri{
+    width: 550px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.com_dokumanlar .kutu .dokum_bilgileri td{
+    border: none!important;
+}
+
+.com_dokumanlar .kutu .dokum_bilgileri .indir_btn{
+    margin-left: 50px;
+    margin-right: 10px;
+    float: left;
+    color: #fff!important;
+    text-shadow: 1px 1px 1px #000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.com_dokumanlar .kutu .mod_sosyal_ag_iconlari{
+    position: relative;
+    float: left;
+}
+
+.com_dokumanlar .kutu a.duvara_link{
+    background-image: url("../images/user.png");
+    background-repeat:no-repeat;
+    background-size: 15px 15px;
+    width: 100%;
+    text-shadow: 1px 1px  #fff;
+    height: 30px!important;
+    color: #0044cc!important;
+    padding-left: 30px;
+    font-size: 11px!important;
+}
+
+.com_dokumanlar #belgenin_adi{
+    background-repeat: no-repeat;
+    background-position: 25px 50%;
+    width: 60px;
+}
+
+.com_dokumanlar .rar{
+    background-image: url("../images/rar.png");
+}
+.com_dokumanlar .zip{
+    background-image: url("../images/zip.png");
+}
+
+.com_dokumanlar .doc{
+    background-image: url("../images/doc.png");
+}
+
+.com_dokumanlar .docx{
+    background-image: url("../images/docx.png");
+}
+
+.com_dokumanlar .xls{
+    background-image: url("../images/xls.png");
+}
+
+.com_dokumanlar .ppt{
+    background-image: url("../images/ppt.png");
+}
+
+.com_dokumanlar .pptx{
+    background-image: url("../images/pptx.png");
+}
+
+.com_dokumanlar .txt{
+    background-image: url("../images/txt.png");
+}
+
+.com_dokumanlar .xlsx{
+    background-image: url("../images/xlsx.png");
+}
+
+.com_dokumanlar .odt{
+    background-image: url("../images/odt.png");
+}
+
+.com_dokumanlar .gif{
+    background-image: url("../images/gif.png");
+}
+
+.com_dokumanlar .png{
+    background-image: url("../images/rar.png");
+}
+
+.com_dokumanlar .jpg{
+    background-image: url("../images/jpg.png");
+}
+
+.com_dokumanlar .pdf{
+    background-image: url("../images/pdf.png");
+}
+
+.com_dokumanlar .link{
+    background-image: url("../images/link.png");
+}

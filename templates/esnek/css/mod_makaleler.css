@@ -1,0 +1,111 @@
+.mod-makaleler{
+    position: relative;
+    width: 600px;
+    height: 268px;
+    margin-top: 60px;
+}
+
+.mod-makaleler .baslik{
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 30px;
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    background-image: url("../images/blok_baslik.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: #fafbff;
+    color: rgb(116, 161, 199)
+}
+
+.mod-makaleler .govde {
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    height: 268px;
+    color: rgb(116, 161, 199)
+}
+
+
+.mod-makaleler .govde .menu_kutu{
+    position: relative;
+    float: left;
+    width: 292px;
+    height: 50px;
+    border: 1px solid #E9EAED;
+    background-color: #fafbff;
+    padding: 0px!important;
+    margin-top: 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+.mod-makaleler .govde .menu_kutu:hover{
+    background-color: #ffffff;
+    border: 1px solid #dbdcdf;
+    box-shadow: 0px 0px 1px #eeeeee;
+}
+
+
+.mod-makaleler .govde .oge_adi{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    /*text-indent: 20px;*/
+    /*background-image: url("../images/mn-icon.png");*/
+    background-repeat: no-repeat;
+    background-position:10px 7px;
+    text-transform:capitalize;
+}
+
+.mod-makaleler .govde .oge_aciklamasi{
+    font-size: 11px;
+    padding: 5px;
+}
+
+
+
+.mod-makaleler .govde .tarih{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.mod-makaleler .govde .hit{
+    right: 60px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.mod-makaleler .govde .hepsini_goster{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    line-height: 30px;
+    height: 20px;
+    text-align: left!important;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.mod-makaleler .mod_makale_yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    top         : 5px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}

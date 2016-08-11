@@ -1,0 +1,300 @@
+@import "mod_ogretmen_agi_anamenu.css";
+@import "mod_sosyal_ag_iconlari.css";
+@import "mod_ogretmen_agi_paylasim.css";
+@import "mod_ogretmen_agi_hesap_yonetimi.css";
+@import "com_ogretmen_agi_paylas.css";
+@import "com_ogretmen_agi.css";
+@import "com_ogretmen_agi_arkadas_yonetimi.css";
+
+html,body{
+    height:100%;
+}
+body{
+    background-color: #E9EAED!important;
+    background-image: url("../images/body_bg.jpg");
+    background-attachment: fixed;
+}
+
+a {
+    color: #000!important;
+    text-decoration: none!important;
+}
+a:link {
+    color: #000!important;
+}
+a:hover {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+
+ .btn{
+    border-radius:0px!important;
+}
+
+.main-container{
+    min-height  : 100%;
+    padding     : 0px!important;
+    min-width   : 1000px!important;
+}
+
+.portal{
+    min-height:100%;
+    padding: 0px!important;
+    width: 1000px!important;
+}
+
+
+
+
+/*  ==========================================      SOL SOL SOL  ========================================== */
+.portal .sol-sutun{
+    position: relative;
+    float: left;
+    height      : 100%;
+    width: 200px;
+}
+
+.main-container .menu-cubugu .logo {
+    position: absolute;
+    width:100px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position:50% 15%;
+    background-size: 100% ;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.portal .sol-sutun .profil-resmi{
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    height: 225px;
+    width: 200px;
+    border: 1px solid #ccc;
+    overflow:hidden;
+}
+
+.portal .sol-sutun .profil-resmi img{
+    position: relative;
+    min-width: 200px;
+}
+
+.portal .sol-sutun .profil-resmi .adi_soyadi{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000;
+    background-color: rgba(15, 35, 70, 0.8);
+    height: 40px;
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+/*  ==========================================    ORTA SÜTUN ========================================== */
+
+
+.portal .orta-sutun{
+    position    : relative!important;
+    float       : left;
+    height      : 100%;
+    width       : 630px;
+    padding-left: 20px;
+}
+
+
+/*  ==========================================      SAĞ SAĞ   ========================================== */
+.portal .sag-sutun{
+    position    : relative;
+    float       : left;
+    height      : 100%;
+    width       : 170px;
+
+}
+
+
+
+
+
+
+/*  ----------------------------------- ÜST MENÜ ÇUBUĞU */
+.main-container  .menu-cubugu{
+    position: relative;
+    width: 100%;
+    height: 46px;
+    background-color: #183E6C;
+    font-size: 10px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+}
+.main-container  .menu-cubugu ul{
+    float: left;
+    margin: 0px;
+}
+.main-container  .menu-cubugu ul li{
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-indent: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.main-container .menu-cubugu ul li a{
+    color: #ffffff!important;
+}
+.main-container  .menu-cubugu ul li a:visited{
+    color: #ffffff!important;
+}
+
+.main-container  .menu-cubugu ul li:hover{
+    text-decoration: underline;
+}
+
+.main-container  .menu-cubugu ul li.ayirac{
+    background-image: url("../images/menu_ayirac.png");
+    background-repeat: no-repeat;
+}
+
+.main-container  .menu-cubugu ul.ziyaretci_menu{
+    float: right;
+    margin-right: 20px;
+}
+
+.main-container  .menu-cubugu ul.ziyaretci_menu .adi_soyadi{
+    background-image: url("../images/user.png");
+    background-size: 20px ;
+    background-repeat:no-repeat ;
+    text-indent: 30px;
+}
+
+
+.table td{
+    padding: 2px!important;
+}
+
+.table th{
+    font-size: 12px!important;
+    font-weight: 100;
+}
+
+.form-control_modifiye{
+    border-radius: 0px!important;
+    height: 28px!important;
+    font-size: 14px!important;
+    padding: 2px!important;
+    padding-left: 8px!important;
+}
+
+
+.portal .orta-sutun  .component-border{
+    float: left;
+    width: 100%;
+}
+
+.portal .orta-sutun .component-border .kutu{
+    float: left;
+    width: 600px!important;
+    background-color: #ffffff;
+    min-height: 500px;
+    margin-top: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+
+.kategori-baslik{
+    width: 100%;
+    line-height: 100px;
+    height: 72px;
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #CCCCCC;
+    background-image: url("../images/kategori_baslik_bg.png");
+    background-repeat: no-repeat;
+    background-position: 18px bottom ;
+    position: relative;
+}
+
+
+
+.form-control{
+    border-radius: 0px!important;
+    height: 27px!important;
+    padding: 2px!important;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+    padding: 5px!important;
+}
+
+
+/*  modal windo arkaplanını tam ayarlayamamışlar :) */
+.modal-backdrop{
+    position: fixed!important;
+    height: 100%;
+    opacity: .6!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ========================================== BOTTOM ========================================== */
+.bottom{
+    margin-top: 10px;
+    position: relative;
+    height: 60px;
+    background-color: #183E6C;
+}
+
+
+.uyari-kutusu{
+    width: 100%!important;
+}
+
+.alert {
+    padding: 3px!important;
+}
+
+
+
+
+.mod_makale_yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}
+

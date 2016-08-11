@@ -1,0 +1,102 @@
+ ul.anamenu {
+    list-style: none!important;
+    margin-top: 10px;
+    font-family:verdana, arial, helvetica, sans-serif;
+}
+
+ul.anamenu li{
+    text-indent: 30px;
+    line-height: 20px;
+    font-size: 13px;
+    height: 20px;
+    color: #000000;
+    margin-top: 3px;
+}
+
+ul.anamenu .blog_icon{
+    background-image: url("../images/blog_icon.png");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+
+ ul.anamenu .ag_icon{
+     background-image: url("../images/ag_icon.png");
+     background-size: 10%;
+     background-repeat: no-repeat;
+     background-position: 0px 1px;
+ }
+
+ ul.anamenu .ayar_icon{
+     background-image: url("../images/edit.png");
+     background-repeat: no-repeat;
+     background-position: 0px 1px;
+     font-size: 12px;
+ }
+
+
+
+
+
+ .view-duvar .kutu{
+    background-color: white;
+    border: 1px solid #ccc ;
+    font-size: 12px;
+     padding: 5px;
+     margin-top: 10px;
+     color: rgb(54, 128, 199);
+ }
+
+ .view-duvar .kutu td{
+     padding-left: 30px;
+ }
+
+ .view-duvar .arkadaslik_istegi_btn{
+     background-color   : #E65135!important;
+     color              : #FFFFFF!important;
+     font-weight        : bold!important;
+     text-shadow        : 1px 1px #000;
+ }
+
+ .view-duvar .arkadaslik_istegini_gerial_btn{
+     background-image: url("../images/istegi_geri_al.png");
+     background-repeat:no-repeat;
+     background-size: 24px 24px;
+     background-position: 5px;
+     color: rgb(116, 161, 199);
+     text-indent: 25px;
+     text-shadow: 1px 1px ;
+ }
+
+ .view-duvar .arkadaslik_isteginiz_var{
+     background-image: url("../images/istek_var.png");
+     background-repeat:no-repeat;
+     background-size: 20px 24px;
+     background-position: 5px;
+     color: rgb(54, 128, 199);
+     text-indent: 25px;
+     text-shadow: 1px 1px  #fff;
+     height: 25px;
+ }
+
+ .view-duvar .konum{
+     background-image: url("../images/konum.png");
+     background-repeat:no-repeat;
+     background-size: 18px 20px;
+     text-shadow: 1px 1px  #fff;
+     height: 25px;
+ }
+
+ .view-duvar .ad_soyad{
+     background-image: url("../images/user.png");
+     background-repeat:no-repeat;
+     background-size: 20px 20px;
+     text-shadow: 1px 1px  #fff;
+     height: 25px;
+ }
+
+ .zaten_arkadaslar{
+     background-color   : #0b9d31 !important;
+     color              : #FFFFFF!important;
+     font-weight        : bold!important;
+     text-shadow        : 1px 1px #000;
+ }

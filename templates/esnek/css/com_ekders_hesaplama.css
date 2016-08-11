@@ -1,0 +1,260 @@
+/*----------------------------- BÜTÇE SLİDESİYLE İLİGİ -----------------*/
+.sarici .slideler .butce_slide{
+    padding-top: 5%;
+}
+
+
+.sarici .slideler .butce_slide  ul.butce_btn{
+    position        : relative;
+    margin-left     : auto;
+    margin-right    : auto;
+    display         : table;
+    table-layout    : fixed;
+    -moz-box-sizing : border-box;
+    box-sizing      : border-box;
+}
+
+.sarici .slideler .butce_slide ul.butce_btn li
+{
+    text-align      : center;
+    display         : block;
+    float           : left;
+    width           : 250px;
+    height          : 250px;
+    background-color: #fff;
+    border          : 5px solid #0f2346;
+    border-radius   : 150px;
+    margin          : 50px;
+    cursor          : pointer;
+    padding         : 5%;
+}
+
+.sarici .slideler .butce_slide ul.butce_btn li:hover{
+    background-color: #3680c7;
+    color           : #fff;
+    border          : 5px solid #f6f7fb;
+}
+
+.sarici .slideler .butce_slide .baslik{
+    color           : #3680c7;
+    width           : 100%;
+    text-align      : center;
+    font-size       : 50px;
+    font-family     : verdana, arial, helvetica, sans-serif;
+}
+
+
+
+.sarici .slideler .butce_slide .butce_yili_degeri{
+     font-size  : 70px;
+    text-align  : center;
+    width       : 100%;
+    background-color: transparent;
+    border: none;
+}
+
+
+/*----------------------------- ÜNVAN SLİDESİYLE İLİGİ -----------------*/
+.sarici .slideler .unvan-slide{
+    padding-top: 2px;
+}
+
+
+.sarici .slideler .unvan-slide  ul.unvanlar {
+    position        : relative;
+    margin-left     : auto;
+    margin-right    : auto;
+    display         : table;
+    table-layout    : fixed;
+    -moz-box-sizing : border-box;
+    box-sizing      : border-box;
+}
+
+.sarici .slideler .unvan-slide ul.unvanlar li
+{
+    display         : block;
+    width           : 550px;
+    background-color: #fff;
+    border          : 2px solid #4e97dc;
+    margin          : 3px;
+    cursor          : pointer;
+    padding         : 1%;
+    padding-left    : 20px;
+    font-size       : 20px;
+}
+
+.sarici .slideler .unvan-slide ul.unvanlar li:hover{
+    background-color: #3680c7;
+    color           : #fff;
+    border          : 2px solid #f6f7fb;
+}
+
+.sarici .slideler .unvan-slide .baslik{
+    color           : #3680c7;
+    width           : 100%;
+    text-align      : center;
+    font-size       : 30px;
+    font-family     : verdana, arial, helvetica, sans-serif;
+}
+
+
+
+.sarici .slideler .unvan-slide .unvan_degeri{
+    font-size       : 30px;
+    text-align      : center;
+    width           : 100%;
+    background-color: transparent;
+    border          : none;
+}
+
+/*--------------------------------   alt menü    ---------------*/
+.sarici .slideler .unvan-slide ul.unvanlar  .alt-menu li{
+    border          : 1px solid #4e97dc;
+    margin-left     : 20px;
+    padding         : 5px;
+    padding-left    : 20px;
+    height          : 35px;
+    font-size       : 14px;
+    border-radius   : 10px;
+    background-color: #e4e2ff;
+}
+
+.sarici .slideler .unvan-slide ul.unvanlar  .alt-menu li:hover{
+    background-color: #bfd3ff;
+}
+
+.sarici .slideler .unvan-slide ul.unvanlar  .alt-menu li .btn{
+    padding         : 2px!important;
+    margin-left     : 20px;
+    padding-left    : 20px!important;
+    padding-right   : 20px!important;
+    margin-top      : -2px!important;
+    float           : right;
+    border-radius   : 20px!important;
+}
+
+.sarici .slideler  .ileri{
+    position: absolute;
+    top:20%;
+    left: 0;
+    width: 100%;
+    background-image: url("../images/ekders_ileri.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height:70%;
+}
+
+.sarici .slideler  .ileri:hover{
+    left: 10px;
+}
+
+.sarici .slideler  .geri{
+    position: absolute;
+    top:20%;
+    left: 0;
+    width: 100%;
+    background-image: url("../images/ekders_geri.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height:70%;
+}
+
+.sarici .slideler  .geri:hover{
+    left: -10px;
+}
+
+/* --------------------------------------------------  VERİ GİRİŞİ ----------------------*/
+.sarici .slideler  #slide_2 {
+    position: absolute;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.sarici .slideler  #slide_2 table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+
+.sarici .slideler  #slide_2 table th{
+    font-size: 20px!important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+.sarici .slideler  #slide_2 table td{
+    height: 55px;
+    padding: 0px;
+    font-size: 35px;
+}
+
+.sarici .slideler  #slide_2 .sonuc_sablonu td{
+
+    font-size: 20px!important;
+}
+
+.sarici .slideler  #slide_2 table tr{
+    border:1px solid #ccc;
+}
+
+.sarici .slideler  #slide_2 .form-control{
+    border: 0px!important;
+    font-size: 30px!important;
+    height: 55px!important;
+    line-height: 55px!important;
+    box-shadow: none;
+    padding-left: 20px!important;
+}
+
+.sarici .slideler  #slide_2 .baslik{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: #3680c7;
+}
+
+.sarici .slideler  #slide_2 table td{
+    vertical-align: bottom!important;
+}
+.sarici .slideler  #slide_2 table {
+    width: 100%;
+}
+
+
+.sarici .slideler  #slide_2 #veri_giris_meb_kadrolu_ylisans_doktora td{
+    padding: 0px!important;
+}
+
+
+.sarici .slideler  #slide_2 #sonuc_meb_ucretli td {
+    height: 20px!important;
+    padding-top: 5px!important;
+    padding-bottom: 0!important;
+}
+
+
+.sarici .slideler  #slide_2 #sonuc_meb_ucretli .form-control {
+    height: 30px!important;
+    font-size: 25px!important;
+    line-height: 25px!important;
+}
+
+.sarici .slideler  #slide_2 .hesapla-btn {
+    margin-top: 20px;
+    font-size: 25px!important;
+}
+
+.sarici .slideler  #slide_2 .input-group-addon {
+    border: 0px!important;
+    border-radius: 0px!important;
+    font-size: 25px!important;
+    background-color: transparent!important;
+}
+
+
+
+
+
+

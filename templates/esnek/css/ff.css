@@ -1,0 +1,293 @@
+@import "mod_carousel.css";
+@import "mod_anamenu.css";
+@import "mod_dokumanlar.css";
+@import "mod_blog_ag_linkleri.css";
+@import "mod_sosyal_ag_iconlari.css";
+@import "com_profil_ayarlari.css";
+@import "com_dokumanlar.css";
+@import "mod_populer_kategori.css";
+@import "com_category.css";
+@import "com_article.css";
+@import "mod_makaleler.css";
+@import "com_iletisim.css";
+@import "com_mebership.css";
+@import "mod_sagmodul1.css";
+@import "com_ekders_hesaplama.css";
+
+html,body{
+    height:100%;
+}
+body{
+    background-color: #E9EAED!important;
+    background-image: url("../images/body_bg.jpg");
+    background-attachment: fixed;
+}
+
+a {
+    color: #000!important;
+    text-decoration: none!important;
+}
+a:link {
+    color: #000!important;
+}
+a:hover {
+    color: #000!important;
+    text-decoration: underline!important;
+}
+
+.btn{
+    border-radius:0px!important;
+}
+
+.alert{
+    border-radius:0px!important;
+}
+
+.main-container{
+    min-height  : 100%;
+    padding     : 0px!important;
+    min-width   : 1000px!important;
+}
+
+.portal{
+    min-height:100%;
+    padding: 0px!important;
+    width: 1000px!important;
+}
+
+
+
+
+/*  ==========================================      SOL SOL SOL  ========================================== */
+.portal .sol-sutun{
+    position: relative!important;
+    float: left;
+    height      : 100%;
+    width: 200px;
+}
+.portal .sol-sutun .logo {
+    position: relative;
+    width: 100%;
+    height: 118px;
+    background-color: #112B4B;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position:50% 15%;
+    background-size: 100% ;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.portal .sol-sutun .logo .site_adi{
+    font-size: 18px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 20%;
+    text-shadow: 1px 1px 1px #000000;
+    letter-spacing: 2px
+}
+
+.portal .sol-sutun .logo .slogan{
+    font-size: 10px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 10%;
+    text-shadow: 1px 1px 1px #000000;
+    letter-spacing: 1.7px;
+}
+
+
+.portal .sol-sutun .logo  .yataycizgi{
+    display: none;
+    position: absolute;
+    background  : #4f5186;
+    border      :0;
+    height      :1px;
+    width       :70%;
+    bottom      :7%;
+    left        : 15%;
+}
+
+
+
+
+
+/*  ==========================================    ORTA SÜTUN ========================================== */
+
+
+.portal .orta-sutun{
+    position    : relative!important;
+    float       : left;
+    height      : 100%;
+    width       : 640px;
+    padding-left: 20px;
+}
+
+/*  ----------------------------------- ÜST MENÜ ÇUBUĞU */
+.portal .orta-sutun  .menu-cubugu{
+    width: 100%;
+    height: 46px;
+    background-color: #183E6C;
+    font-size: 10px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+}
+.portal .orta-sutun  .menu-cubugu ul{
+    float: left;
+    margin: 0px;
+}
+.portal .orta-sutun  .menu-cubugu ul li{
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-indent: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.portal .orta-sutun  .menu-cubugu ul li a{
+    color: #ffffff!important;
+}
+.portal .orta-sutun  .menu-cubugu ul li a:visited{
+    color: #ffffff!important;
+}
+
+.portal .orta-sutun  .menu-cubugu ul li:hover{
+    text-decoration: underline;
+}
+
+.portal .orta-sutun  .menu-cubugu ul li.ayirac{
+    background-image: url("../images/menu_ayirac.png");
+    background-repeat: no-repeat;
+}
+
+.portal .orta-sutun  .menu-cubugu ul.ziyaretci_menu {
+    float: right;
+    margin-right: 20px;
+}
+
+.portal .orta-sutun  .menu-cubugu ul.ziyaretci_menu .adi_soyadi{
+    background-image: url("../images/user.png");
+    background-size: 20px ;
+    background-repeat:no-repeat ;
+    text-indent: 30px;
+}
+
+
+.portal .sag-sutun{
+    position    : relative;
+    float       : left;
+    width       : 150px;
+    background-color: #fff;
+    border      : 1px solid #ccc;
+    font-size   : 12px;
+    margin-left: 10px;
+    min-height: 500px;
+}
+
+
+.table td{
+    padding: 2px!important;
+}
+
+.table th{
+    font-size: 12px!important;
+    font-weight: 100;
+}
+
+.form-control_modifiye{
+    border-radius: 0px!important;
+    height: 28px!important;
+    font-size: 14px!important;
+    padding: 2px!important;
+    padding-left: 8px!important;
+}
+
+
+.portal .orta-sutun  .component-border{
+    float: left;
+    width: 100%;
+}
+
+.portal .orta-sutun .component-border .kutu{
+    float: left;
+    width: 620px!important;
+    background-color: #ffffff;
+    min-height: 500px;
+    margin-top: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+
+.kategori-baslik{
+    width: 100%;
+    line-height: 100px;
+    height: 72px;
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #CCCCCC;
+    background-image: url("../images/kategori_baslik_bg.png");
+    background-repeat: no-repeat;
+    background-position: 18px bottom ;
+    position: relative;
+}
+
+
+
+.form-control{
+    border-radius: 0px!important;
+    height: 27px!important;
+    padding: 2px!important;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+    padding: 5px!important;
+}
+
+
+/*  modal windo arkaplanını tam ayarlayamamışlar :) */
+.modal-backdrop{
+    position: fixed!important;
+    height: 100%;
+    opacity: .6!important;
+}
+
+
+/*  ========================================== BOTTOM ========================================== */
+.bottom{
+    margin-top: 10px;
+    position: relative;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    color: #CCCCCC;
+}
+
+
+.uyari-kutusu{
+    width: 100%!important;
+}
+
+.alert {
+    padding: 3px!important;
+}
+
+
+
+
+.mod_makale_yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}
+

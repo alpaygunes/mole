@@ -1,0 +1,45 @@
+.mod_blog_ag_linkleri{
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    margin-top:10px ;
+}
+
+.mod_blog_ag_linkleri ul{
+    list-style: none!important;
+    margin-top: 10px;
+     font-family:verdana, arial, helvetica, sans-serif;
+}
+
+.mod_blog_ag_linkleri  ul li{
+    text-indent: 30px;
+    line-height: 20px;
+    font-size: 13px;
+    height: 20px;
+    margin-top: 3px;
+
+}
+
+ .mod_blog_ag_linkleri ul  a{
+     color: #3680c7!important;
+ }
+
+.mod_blog_ag_linkleri ul .blog_icon {
+    background-image: url("../images/anasayfa.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+
+ .mod_blog_ag_linkleri ul .ag_icon{
+     background-image: url("../images/ag_icon.png");
+     background-size: 10%;
+     background-repeat: no-repeat;
+     background-position: 0px 1px;
+ }
+
+ .mod_blog_ag_linkleri ul .ayar_icon{
+     background-image: url("../images/edit.png");
+     background-repeat: no-repeat;
+     background-position: 0px 1px;
+     font-size: 12px;
+ }

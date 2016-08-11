@@ -1,0 +1,3 @@
+tarayıcı adresi
+?component=mole&command=gorevListele&bilgisayar_adi=ALPAY-PC
+---

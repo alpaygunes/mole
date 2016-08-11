@@ -1,0 +1,58 @@
+.ogretmen_agi_arkadas_yonetimi .kutu{
+    position: relative;
+}
+
+.ogretmen_agi_arkadas_yonetimi .dugmeler{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.ogretmen_agi_arkadas_yonetimi .btn{
+    font-size: 14px!important;
+}
+
+
+
+.ogretmen_agi_arkadas_yonetimi .kutu .liste {
+    width: 100%;
+    border-top: 3px!important;
+    font-size: 12px;
+}
+
+.ogretmen_agi_arkadas_yonetimi .kutu .liste tr th h3{
+    margin: 0px!important;
+    margin-left: 30px!important;
+    font-size: 12px!important;
+ }
+
+.ogretmen_agi_arkadas_yonetimi .kutu .liste .kara_dugmeleri{
+    width: 180px;
+}
+
+.ogretmen_agi_arkadas_yonetimi .kutu .liste td{
+    cursor: pointer;
+}
+
+.ogretmen_agi_arkadas_yonetimi .kutu .liste .adi_soyadi:hover{
+    text-decoration: underline;
+}
+
+.ogretmen_agi_arkadas_yonetimi .kutu .liste .kayit_bulunamadi{
+    color: #ccc;
+    padding-top: 150px!important;
+    padding-left: 200px!important;
+    font-size: 20px
+}
+
+
+.ogretmen_agi_arkadas_yonetimi .kutu .baslik{
+    background-image: url("../images/arkadaslari_duzenle.png");
+    background-repeat:no-repeat;
+    background-size: 18px 18px;
+    background-position: 5px;
+    color: rgb(116, 161, 199);
+}
+

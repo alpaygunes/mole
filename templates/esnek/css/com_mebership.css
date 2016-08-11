@@ -1,0 +1,101 @@
+
+.membership .kutu{
+    padding: 20px;
+    padding-top: 50px;
+}
+
+
+.uyelik-formu-kutu{
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-top: 75px;
+    border: 1px solid #CCCCCC;
+}
+
+.uyelik-formu-kutu .table td{
+    padding: 5px!important;
+}
+
+.uyelik-formu-kutu .table th{
+    font-size: 14px!important;
+    font-weight: bold;
+    border: none!important;
+    display: none;
+}
+
+.uyelik-formu-kutu  span.aciklama{
+    font-size: 16px!important;
+    margin-left: 40px;
+    line-height: 35px;
+}
+
+.uyelik-formu-kutu .table span.sozlesme_link{
+    font-size: 12px!important;
+}
+
+
+
+
+.fb-giris-btn{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    display: block;
+    width: 175px;
+    height: 40px;
+    margin-top: 20px;
+    background-image: url("../images/facebook-giris-btn.png");
+    cursor: pointer;
+}
+
+.uyelik-tamam-tanitim div{
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+}
+
+.uyelik-tamam-tanitim .blogunuz-hazir{
+    width: 40%;
+    margin-left: 170px;
+}
+
+.uyelik-tamam-tanitim img{
+    float: left;
+    width: 50%;
+}
+
+.uyelik-formu-kutu table{
+    border: none!important;
+}
+
+.uyelik-formu-kutu table td{
+    border: none!important;
+}
+
+
+.membership .kutu table td{
+    height: 50px;
+    border: none!important;
+
+}
+
+
+.membership .kutu table{
+    margin-top: 20px
+}
+
+.membership .kutu .mailtext{
+    line-height: 50px;
+    height: 50px!important;
+    box-shadow: none!important;
+    font-size: 16px!important;
+    padding-left: 20px!important;
+}
+
+
+
+

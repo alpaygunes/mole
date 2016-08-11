@@ -1,0 +1,113 @@
+.son-eklenenler{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    color:  rgb(116, 161, 199);
+}
+
+.son-eklenenler .baslik{
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 30px;
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    background-image: url("../images/blok_baslik.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: #fafbff;
+}
+
+.son-eklenenler .govde {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: 268px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+}
+
+
+.son-eklenenler .govde .menu_kutu{
+    position: relative;
+    float: left;
+    width: 99%;
+    height: 50px;
+    border: 1px solid #E9EAED;
+    background-color: #fafbff;
+    padding: 0px!important;
+    margin-top: 10px;
+    margin: 3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.son-eklenenler .govde .menu_kutu:hover{
+    background-color: #ffffff;
+    border: 1px solid #dbdcdf;
+    box-shadow: 0px 0px 1px #eeeeee;
+}
+
+
+.son-eklenenler .govde .oge_adi{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    /*text-indent: 20px;*/
+    /*background-image: url("../images/mn-icon.png");*/
+    background-repeat: no-repeat;
+    background-position:10px 7px;
+    text-transform:capitalize;
+    color: #F96A20;
+}
+
+.son-eklenenler .govde .oge_aciklamasi{
+    font-size: 11px;
+    padding: 5px;
+}
+
+
+
+.son-eklenenler .govde .tarih{
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.son-eklenenler .govde .hit{
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.son-eklenenler .govde .hepsini_goster{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    line-height: 30px;
+    height: 20px;
+    text-align: left!important;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.son-eklenenler .mod_makale_yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    top         : 5px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}
+
+.son-eklenenler .dosya_yok{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: #CCCCCC;
+}

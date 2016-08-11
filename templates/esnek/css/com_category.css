@@ -1,0 +1,179 @@
+.com_category .kutu{
+    position: relative;
+    padding: 0px!important;
+
+}
+
+.com_category .kutu .kayit_yok{
+    position    : absolute;
+    width       : 200px;
+    height      : 20px;
+    top         : 200px;
+    left        : 40%;
+    color       : #CCCCCC;
+}
+
+
+.com_category .kutu .yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    top         : 200px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}
+
+.com_category .kutu .makale{
+    position: relative;
+    float: left;
+    border-bottom: 1px solid #f0f0f0;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.com_category .kutu .makale:hover{
+    background-color: #fafafa;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.com_category .kutu .makale .resim{
+    position: relative;
+    float: left;
+    border: 1px solid #f0f0f0;
+    height: 80px;
+    margin-right: 10px;
+    width: 110px;
+    padding: 5px;
+}
+
+.com_category .kutu .makale .baslik{
+    position: relative;
+    float: left;
+    float: left;
+    width: 450px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.com_category .kutu .makale .ilk_cumle{
+    position: relative;
+    float: left;
+    float: left;
+    width: 450px;
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.com_category .kutu .makale .tarih{
+    position: absolute;
+    font-size: 10px;
+    bottom: 0px;
+    right: 20px;
+    color: #8f8f8f;
+    font-style: italic;
+}
+
+
+
+.com_category .kutu .makale .hit{
+    position: absolute;
+    font-size: 10px;
+    bottom: 0px;
+    right: 120px;
+    color: #8f8f8f;
+    font-style: italic;
+}
+
+
+.com_category .digerleri .makale{
+    width: 100%!important;
+    height: 35px!important;
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+
+
+.modal-dialog .modal-content .modal-body  .haber-txt{
+    text-align: left!important;
+    font-size: 13px!important;
+    text-align: justify!important;
+}
+
+
+.modal-dialog .modal-content .modal-body .resim{
+    width: 250px!important;
+    max-height: 500px;
+    padding: 5px!important;
+    float: left!important;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+.com_category .sayfalama{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    padding: 2px;
+}
+
+.com_category .sayfalama table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+
+.com_category .sayfalama table tr td{
+    width: 150px;
+}
+.com_category .ilerigeribtn{
+    float: right;
+    display: block;
+    width: 85px;
+    margin-right: 4px;
+    border-radius: 0px;
+
+}
+
+
+.com_category .digerleri .yukleniyor_gif{
+    position    : absolute;
+    width       : 50px;
+    height      : 50px;
+    top         : 200px;
+    left        : 50% ;
+    background-image: url("../images/yukleniyor.gif");
+    background-repeat: no-repeat;
+}
+
+
+.com_category .icerik .kayit_yok{
+    position    : absolute;
+    width       : 200px;
+    height      : 20px;
+    top         : 200px;
+    left        : 40%;
+    color       : #CCCCCC;
+}
+
+.com_category .modal-footer  a{
+    color       : #fff;
+}
+
+
+
+
+

@@ -1,0 +1,183 @@
+.ogretmen_agi .dokumanlar .dokuman{
+    float: left;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e2dde7;
+    min-height: 200px;
+    width:600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.ogretmen_agi .dokumanlar .dokuman .header{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 52px;
+}
+
+.ogretmen_agi .dokumanlar .dokuman .header img{
+    float: left;
+    position: relative;
+    border: 1px solid #e2dde7;
+    height: 50px;
+    padding: 2px;
+}
+
+
+.ogretmen_agi .dokumanlar .dokuman .body{
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+}
+
+
+.ogretmen_agi .dokumanlar .dokuman .belgenin_adi{
+    width: 100%;
+    float: left;
+    position: relative;
+    font-weight: bold;
+    color: #fc9000;
+    text-indent: 5px;
+    margin-top: 10px;
+}
+
+.ogretmen_agi .dokumanlar .dokuman .baglanti{
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    float: left;
+    position: relative;
+    text-indent: 40px;
+    background-image: url("../images/link.png");
+    background-repeat: no-repeat;
+}
+
+.ogretmen_agi .dokumanlar .dokuman .baglanti:hover{
+    text-decoration: underline;
+}
+
+.ogretmen_agi .dokumanlar .dokuman .belgenin_aciklamasi{
+    float: left;
+    width: 100%;
+    position: relative;
+    text-indent: 5px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+.ogretmen_agi .dokumanlar .dokuman .footer{
+    float: left;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+
+.ogretmen_agi .dokumanlar .dokuman .footer div{
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+
+.ogretmen_agi .dokumanlar .dokuman  .footer .begen{
+    cursor: pointer;
+}
+.ogretmen_agi .dokumanlar .dokuman  .footer .begen:hover{
+    text-decoration: underline;
+}
+
+.ogretmen_agi .dokumanlar .dokuman  .footer .yorum_yap{
+}
+.ogretmen_agi .dokumanlar .dokuman  .footer .yorum_yap:hover{
+    text-decoration: underline;
+}
+
+.ogretmen_agi .dokumanlar .dokuman  .footer .indir{
+}
+.ogretmen_agi .dokumanlar .dokuman  .footer .indir:hover{
+    text-decoration: underline;
+}
+
+.ogretmen_agi .dokuman .header .sil {
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background-image: url("../images/dokuman_sil.png");
+    background-repeat:no-repeat;
+    background-size: 16px 16px;
+    background-position: 5px;
+    color: rgb(116, 161, 199);
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.ogretmen_agi .dokuman .header .sil:hover {
+    text-decoration: underline;
+}
+
+.ogretmen_agi .dokuman .header img {
+    margin: 5px;
+}
+
+.ogretmen_agi .dokumanlar .dokuman  .footer .ekleme_tarihi{
+    float: right!important;
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(116, 161, 199);
+}
+
+.ogretmen_agi .dokumanlar .dokuman  .footer .detay{
+    background-image: url("../images/dokuman_detay.png");
+    background-repeat:no-repeat;
+    background-size: 20px 16px;
+    background-position: 5px;
+    color: rgb(116, 161, 199);
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.ogretmen_agi .dokumanlar .dokuman  .footer .hit{
+    float: right!important;
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(116, 161, 199);
+}
+
+.ogretmen_agi .upload_progres{
+    width           : 31px;
+    height          : 31px;
+    background-image: url("../images/uploading.gif");
+}
+
+.ogretmen_agi .kutu .logo{
+    font-size   : 40px;
+    width       : 100%;
+    height      : 100px;
+    text-align  : center;
+    margin-top  : 50px;
+    background-image: url("../images/logo.png");
+    background-size: 30%;
+    background-color: #edf0f7;
+    background-position:50%;
+    background-repeat: no-repeat;
+}
+
+.ogretmen_agi .dokumanlar .kutu {
+    min-height: 400px!important;
+}
+
+.ogretmen_agi .dokumanlar .paylasim_yok_kutusu{
+
+    padding-top: 150px;
+    text-align: center;
+    color: #adcaed;
+}

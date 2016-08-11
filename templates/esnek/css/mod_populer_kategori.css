@@ -1,0 +1,88 @@
+.populer_icerikler_kutusu{
+    width: 600px;
+    height: 268px;
+    margin-top: 10px;
+}
+
+.populer_icerikler_kutusu .baslik{
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 30px;
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    background-image: url("../images/blok_baslik.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: #fafbff;
+    color: rgb(116, 161, 199)
+}
+
+.populer_icerikler_kutusu .govde {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    height: 268px;
+}
+
+
+.populer_icerikler_kutusu .govde .menu_kutu{
+    float: left;
+    width: 392px;
+    height: 40px;
+    border: 1px solid #E9EAED;
+    background-color: #fafbff;
+    padding: 0px!important;
+    margin-top: 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+.populer_icerikler_kutusu .govde .menu_kutu:hover{
+    background-color: #ffffff;
+    border: 1px solid #dbdcdf;
+    box-shadow: 0px 0px 1px #eeeeee;
+}
+
+
+.populer_icerikler_kutusu .govde .oge_adi{
+    font-size: 12px;
+    font-weight: bold;
+    text-indent: 20px;
+    background-image: url("../images/mn-icon.png");
+    background-repeat: no-repeat;
+    background-position:10px 7px;
+    text-transform:capitalize;
+}
+
+.populer_icerikler_kutusu .govde .oge_aciklamasi{
+    font-size: 11px;
+    text-indent: 20px;
+}
+
+
+
+.populer_icerikler_kutusu .govde .tarih{
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.populer_icerikler_kutusu .govde .hit{
+    font-size: 10px;
+    float: right;
+    color: #afafaf;
+    padding-right: 10px;
+}
+
+.populer_icerikler_kutusu .govde .hepsini_goster{
+    border-radius:  0px!important;
+    float: right;
+    text-align: left!important;
+    cursor: pointer;
+    padding-right: 20px;
+    font-size: 12px;
+}

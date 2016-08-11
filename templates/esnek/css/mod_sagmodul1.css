@@ -1,0 +1,18 @@
+.sag_modul1{
+}
+
+.sag_modul1 .menu{
+    width: 130px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.sag_modul1 .sinav_gorevi_menu{
+    background-image: url("../images/sinav_tarihleri.png");
+}
+
+.sag_modul1 .ekders_hesaplama{
+    background-image: url("../images/ekders_hesaplama.png");
+}
