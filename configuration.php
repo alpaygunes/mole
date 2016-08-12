@@ -4,11 +4,11 @@ define("DS", "/");
 define("GIRIS_KARTI", "1");
 	if($_SERVER['HTTP_HOST']=="localhost"){
 		class  configuration{
-			static $site_url		=   'http://localhost/okulcan';
+			static $site_url		=   'http://localhost/mole';
 			static $site_base_url	=   '/';
 			static $db_user 		= 	'root';
 			static $db_password		=	'1234';
-			static $db_name			=	'okulcan';
+			static $db_name			=	'mole';
 			static $db_host			=	'localhost';
             static $base_image_dir			=	'albums';
 			static $base_path		=	'/var/www';
@@ -22,7 +22,7 @@ define("GIRIS_KARTI", "1");
 		}
 	}else {
 		class  configuration{
-			static $site_url		=   'http://www.okulcan.com';
+			static $site_url		=   'http://www.mole.com';
 			static $site_base_url	=   '/';
 			static $db_user 		= 	'alpgun';
 			static $db_password		=	'Erciyes38#';

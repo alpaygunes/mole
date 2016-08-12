@@ -32,7 +32,7 @@ class mole_mdl extends BaseModel{
 
 	function aktiflikZamaniniGuncelle(){
 		$istemci_adi      = $this->request['istemcinin_adi'];
-		$istemci_IP       = "------------".$this->get_client_ip();
+		$istemci_IP       = $this->get_client_ip();
 
 		// zaten db de varsa güncelle , yoksa yeni kayıt olacak
 		$query 								= " SELECT

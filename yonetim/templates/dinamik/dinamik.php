@@ -14,10 +14,7 @@
     <script type="text/javascript" src="<?php echo configuration::$site_url.'/library/jvalidator/localization/messages_tr.js';?>"></script>
     <script type="text/javascript" src="<?php echo configuration::$site_url.'/library/TBjavascript.js';?>"></script>
     <script type="text/javascript" src="<?php echo configuration::$site_url.'/library/Pagination/pagination.js';?>"></script>
-    <script type="text/javascript" src="<?php echo 'templates/'.$this->template.'/angular.min.js';?>"></script>
-    <script type="text/javascript" src="<?php echo 'templates/'.$this->template.'/ui-bootstrap-tpls-0.13.0.min.js';?>"></script>
 
-    <script type="text/javascript" src="<?php echo configuration::$site_url.'/editor/tinymce/tinymce.min.js';?>"></script>
 
     <link href="<?php echo 'templates/'.$this->template.'/bootstrap/css/bootstrap.min.css';?>" rel="stylesheet"  type="text/css">
     <script   src="<?php echo 'templates/'.$this->template.'/bootstrap/js/bootstrap.min.js';?>"></script>
